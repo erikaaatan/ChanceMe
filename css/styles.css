@@ -30,7 +30,7 @@ html {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    width: 22.5%;
+    width: 22.5vw;
 }
 
 .topnav a:hover {
@@ -59,9 +59,14 @@ html {
     padding-top: 5%;
 }
 
+#colleges {
+    padding-top: 5%;
+}
+
 #tagline {
     position: absolute;
     bottom: 5%;
+    left: 5%;
     padding: 10px;
     animation: tag 5s forwards;
 }
@@ -182,7 +187,7 @@ ul li:nth-child(9) {
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto;
     grid-gap: 15px;
     margin: 0 auto;
 }
@@ -190,7 +195,7 @@ ul li:nth-child(9) {
 .container .card {
     position: relative;
     width: 150px;
-    height: 250px;
+    height: 220px;
     margin: 0 auto;
     background: #fff;
     box-shadow: 0 15px 60px rgba(0, 0, 0, .5);
@@ -209,7 +214,7 @@ ul li:nth-child(9) {
 
 .container .card .face.face1 {
     box-sizing: border-box;
-    padding: 20px;
+    padding: 10px;
 }
 
 .container .card .face.face1 h2 {
@@ -223,7 +228,7 @@ ul li:nth-child(9) {
 }
 
 .container .card:hover .face.face2 {
-    height: 60px;
+    height: 40px;
 }
 
 .container .card .face.face2:before {
@@ -259,4 +264,20 @@ ul li:nth-child(9) {
     font-size: 20px;
     margin: 4px 2px;
     cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ff9999;
+}
+
+#about p {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.footer {
+    background: #fa8072;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
 }
